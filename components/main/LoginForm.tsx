@@ -56,7 +56,7 @@ export default function LoginForm() {
     }
   }
   async function handleGooglSignIn(){
-    const signInData = await signIn("google",{redirect:true,callbackUrl:process.env.BASE_URL})
+    const signInData = await signIn("google",{redirect:true,callbackUrl:`${process.env.NEXT_PUBLIC_BASE_URL}/`})
   }
   return (
     <>

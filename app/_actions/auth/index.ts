@@ -70,7 +70,7 @@ export async function forgetPassword({
       secret,
       { expiresIn: "15m" }
     );
-    const link = `${process.env.BASE_URL}/reset-password/${user.id}/${token}`;
+    const link = `${process.env.NEXT_PUBLIC_BASE_URL}/reset-password/${user.id}/${token}`;
     const { data, error } = await resend.emails.send({
       from: "Password Reset <onboarding@resend.dev>",
       to: email,
