@@ -21,8 +21,8 @@ export default async function Header({count}:{count:number}) {
         <UserDropDown name={sessions?.user?.name as string} email={sessions?.user?.email as string}>
             <Avatar>
               {/* <div className="w-9 h-9 rounded-full bg-pink-500"></div> */}
-              <AvatarImage src={`${sessions?.user?.image}`} className="z-50 relative"></AvatarImage>
-              <AvatarFallback><Image src="https://t4.ftcdn.net/jpg/00/64/67/27/360_F_64672736_U5kpdGs9keUll8CRQ3p3YaEv2M6qkVY5.jpg" alt="logo" /></AvatarFallback>
+              <AvatarImage src={sessions?.user?.image} className="z-50 relative"></AvatarImage>
+              <AvatarFallback><Image src="https://t4.ftcdn.net/jpg/00/64/67/27/360_F_64672736_U5kpdGs9keUll8CRQ3p3YaEv2M6qkVY5.jpg" alt="logo" height={100} width={100} /></AvatarFallback>
             </Avatar>
           <p className="hidden md:inline z-50 relative">{sessions?.user?.name?.split(" ")[0]}</p>
         </UserDropDown>
