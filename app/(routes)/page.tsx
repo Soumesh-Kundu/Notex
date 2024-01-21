@@ -7,21 +7,10 @@ import { authOptions } from "@/lib/auth";
 import { getTodos } from "../_actions/todos";
 
 
-async function fetchTodos(): Promise<todoState[]> {
-  const res = await fetch(`${process.env.BASE_URL}/todos/all`, {
-    cache: "no-cache",
-  });
-  if (!res.ok) {
-    throw new Error("problem occured");
-  }
-  const data = await res.json();
-  return data;
-}
 
 export default async function Home() {
   const session=await getServerSession(authOptions)
   if(session===null){
-    console.log(session)
     permanentRedirect('/login')
   }
   const data = await getTodos(session?.user.id);
