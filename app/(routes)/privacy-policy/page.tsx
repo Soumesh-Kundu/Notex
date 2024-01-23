@@ -10,14 +10,14 @@ export default function PrivacyPolicy() {
         <h3 className="text-2xl md:text-3xl font-bold mb-3">Your privacy is important to us</h3>
 
         <p className=" mb-2">
-          It is Notex's policy to respect your privacy regarding any information
+          It is Notex&apos;s policy to respect your privacy regarding any information
           we may collect while operating our website. This Privacy Policy
           applies to{" "}
           <a href="https://notex-next.vercel.app"> notex-next.vercel.app/</a>{" "}
-          (hereinafter, "us", "we", or "notex-next.vercel.app"). We respect
+          (hereinafter, &quot;us&quot;, &quot;we&quot;, or &quot;notex-next.vercel.app&quot;). We respect
           your privacy and are committed to protecting personally identifiable
           information you may provide us through the Website. We have adopted
-          this privacy policy ("Privacy Policy") to explain what information may
+          this privacy policy (&quot;Privacy Policy&quot;) to explain what information may
           be collected on our Website, how we use this information, and under
           what circumstances we may disclose the information to third parties.
           This Privacy Policy applies only to information we collect through the
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
         </ol>
         <h2 id="PII" className="text-2xl md:text-3xl font-bold my-3">1. Personally-Identifying Information</h2>
         <p className="mb-2">
-          Certain visitors to Notex's websites choose to interact with Notex in
+          Certain visitors to Notex&apos;s websites choose to interact with Notex in
           ways that require Notex to gather personally-identifying information.
           The amount and type of information that Notex gathers depends on the
           nature of the interaction. For example, we ask visitors who leave a
@@ -86,25 +86,25 @@ export default function PrivacyPolicy() {
         </p>
         <h2 id="Cookies" className="text-2xl md:text-3xl font-bold my-3">3. Cookies</h2>
         <p className="mb-2">
-          To enrich and perfect your online experience, Notex uses "Cookies",
+          To enrich and perfect your online experience, Notex uses &quot;Cookies&quot;,
           similar technologies and services provided by others to display
           personalized content, appropriate advertising and store your
           preferences on your computer.
         </p>
         <p className="mb-2">
           A cookie is a string of information that a website stores on a
-          visitor's computer, and that the visitor's browser provides to the
+          visitor&apos;s computer, and that the visitor&apos;s browser provides to the
           website each time the visitor returns. Notex uses cookies to help
           Notex identify and track visitors, their usage of
           https://notex-next.vercel.app, and their website access preferences.
           Notex visitors who do not wish to have cookies placed on their
           computers should set their browsers to refuse cookies before using
-          Notex's websites, with the drawback that certain features of Notex's
+          Notex&apos;s websites, with the drawback that certain features of Notex&apos;s
           websites may not function properly without the aid of cookies.
         </p>
         <p className="mb-2">
           By continuing to navigate our website without changing your cookie
-          settings, you hereby acknowledge and agree to Notex's use of cookies.
+          settings, you hereby acknowledge and agree to Notex&apos;s use of cookies.
         </p>
 
         <p>
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
         <h2 id="Changes" className="text-2xl md:text-3xl font-bold my-3">4. Privacy Policy Changes</h2>
         <p className="mb-2">
           Although most changes are likely to be minor, Notex may change its
-          Privacy Policy from time to time, and in Notex's sole discretion.
+          Privacy Policy from time to time, and in Notex&apos;s sole discretion.
           Notex encourages visitors to frequently check this page for any
           changes to its Privacy Policy. Your continued use of this site after
           any change in this Privacy Policy will constitute your acceptance of
